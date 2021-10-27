@@ -10,13 +10,13 @@
     "mediaqueries",
     "flexbox"
   ],
-  "url": "https://github.com/devlint/gridlex",
-  "homepage": "http://gridlex.devlint.fr",
+  "url": "https://github.com/LabEG/gridlex",
+  "homepage": "labeg.github.io/gridlex/",
   "author": "https://github.com/devlint",
   "version": "2.7.1",
   "repository": {
     "type": "git",
-    "url": "git@github.com:devlint/gridlex.git"
+    "url": "git@github.com:LabEG/gridlex.git"
   },
   "license": "MIT",
   "main": "dist/gridlex.min.css",

@@ -1,9 +1,9 @@
 # Gridlex
+
+## !!! Fork !!!
+Fork for drop deprecated node-sass and support sass 2. The original repository [you can find here](https://duckduckgo.com).
+
 ## Just a Flexbox Grid System
-
-[![Join the chat at https://gitter.im/devlint/gridlex](https://badges.gitter.im/devlint/gridlex.svg)](https://gitter.im/devlint/gridlex?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-v. 2.7.1
-
 
 Based on Flexbox (CSS Flexible Box Layout Module), Gridlex is a very simple css grid system to quickly create modern layouts and submodules.
 
@@ -18,24 +18,10 @@ The concept is simple: you need to wrap your `.col` in a `.grid`.
 
 ### Sass, CSS?
 
-**I just wanna use it in my page!**
-
-To use Gridlex out of the box, call the gridlex.min.css file in your project :
-
-Via CDN:
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-```
-or
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridlex@2.7.1/dist/gridlex.min.css" integrity="sha256-z8OrWCce0gDjwavCHKqxiPIo74u8go25fRiqW6jefXk=" crossorigin="anonymous">
-```
-[![](https://data.jsdelivr.com/v1/package/npm/gridlex/badge)](https://www.jsdelivr.com/package/npm/gridlex)
-
 **I want to include it in my source files!**
 
-Just include gridlex/src/gridlex.scss 
-and 
+Just include gridlex/src/gridlex.scss
+and
 update the $gl- vars:
 <table>
     <thead>
@@ -86,11 +72,7 @@ update the $gl- vars:
 </table>
 
 ### Install via Npm
-npm install gridlex --save
-
-### Install via Bower
-bower install gridlex --save
-
+npm install @labeg/gridlex --save-dev
 
 ### 3 ways to use Gridlex
 **1- The basic. Just add a class `.grid-*` (from -1 to -12)**
@@ -151,4 +133,4 @@ Columns can be hidden at breakpoints using `_*-0` (e.g. `col-4_md-6_sm-0`)
 </tbody>
 </table>
 
-See more : http://gridlex.devlint.fr
+See more : http://labeg.github.io/gridlex/
