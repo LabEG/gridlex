@@ -23,9 +23,9 @@
   "sass": "src/gridlex.scss",
   "style": "docs/gridlex.css",
   "scripts": {
-    "version": "npm run dist && git add -A .",
     "dist": "sass --source-map dist/ src/gridlex.scss:dist/gridlex.css && postcss dist/gridlex.css > dist/gridlex.min.css && npm run docs",
-    "docs": "cp -R dist/*.* docs"
+    "docs": "cp -R dist/*.* docs",
+    "prepublishOnly": "npm version patch"
   },
   "devDependencies": {
     "cssnano": "^5.1.12",
