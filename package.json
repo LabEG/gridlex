@@ -28,8 +28,8 @@
     "prepublishOnly": "npm version patch"
   },
   "devDependencies": {
-    "cssnano": "^5.1.12",
-    "sass": "^1.52.3",
-    "postcss-cli": "^9.1.0"
+    "cssnano": "^5.1.14",
+    "sass": "^1.56.1",
+    "postcss-cli": "^10.0.0"
   }
 }
