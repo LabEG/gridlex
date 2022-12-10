@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "cssnano": "^5.1.14",
-    "sass": "^1.56.1",
-    "postcss-cli": "^10.0.0"
+    "sass": "^1.56.2",
+    "postcss-cli": "^10.1.0"
   }
 }
