@@ -3,6 +3,10 @@
 ## !!! Fork !!!
 Fork for drop deprecated node-sass and support sass 2. The original repository [you can find here](https://duckduckgo.com).
 
+## !!! Deprecated !!!
+
+Deprecated in favor of styled-components grid. There will be no updates.
+
 ## Just a Flexbox Grid System
 
 Based on Flexbox (CSS Flexible Box Layout Module), Gridlex is a very simple css grid system to quickly create modern layouts and submodules.
